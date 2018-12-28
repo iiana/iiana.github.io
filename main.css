@@ -1,9 +1,10 @@
 h1 {
-  font: Georgia, sans-serif;
+  font-family: Georgia, sans-serif;
   color: yellow;
 }
 
 h2 {
-  font: Helvetica, sans-serif;
-  color: gray;
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  color: grey;
 }
