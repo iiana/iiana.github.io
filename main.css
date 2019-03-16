@@ -35,6 +35,10 @@ header {
   padding: 0 25px;
 }
 
+.container {
+  padding-top: 60px;
+}
+
 .logo {
   float: left;
   margin-top: 7px;
@@ -91,22 +95,25 @@ header {
   background-position: center;
   background-image: url("./images/svg/banner_starry_sky.svg");
   position: relative;
-}
-
-.wrapper {
-  width: 100%;
   height: 100vh;
   display: flex;
-  -webkit-flex-wrap: nowrap;
-  /* flex-direction: row; */
-  flex-wrap: nowrap;
-  justify-content: center;
   color: white;
-  background-repeat: no-repeat;
-
 }
 
-.wrapper h1 {
+.banner-content {
+  margin-left: 300px;
+  background-color: #8193A5;
+}
+
+.banner-content .heading {
+  max-width: 600px;
+  background-image: url("./images/svg/banner_heading_blob.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100px;
+  padding-top: 35px;
+  padding-left: 50px;
   color: black;
 }
 
@@ -132,18 +139,6 @@ header {
 .banner-content {
   margin-left: 300px;
   background-color: #8193A5;
-}
-
-.top {
-  height: 100px;
-  max-width: 600px;
-  margin-top: 90px;
-  padding-top: 35px;
-  padding-left: 50px;
-  background-size: auto;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url("./images/SVG/Asset 6.SVG")
 }
 
 .bottom {
@@ -189,13 +184,6 @@ header {
   max-width: 600px;
   padding: 40px;
 
-}
-
-.title1 {
-  max-width: 600px;
-  background-image: url("./images/SVG/Asset 3.SVG");
-  background-size: cover;
-  background-image: none;
 }
 
 p .white {
