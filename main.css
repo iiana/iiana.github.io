@@ -95,7 +95,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("./images/svg/banner_starry_sky.svg");
+  background-image: url("./images/banner_starry_sky.svg");
   position: relative;
   height: 100vh;
   display: flex;
@@ -113,7 +113,7 @@ header {
 
 .banner-content .heading {
   color: black;
-  background-image: url("./images/svg/banner_heading_blob.svg");
+  background-image: url("./images/banner_heading_blob.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
