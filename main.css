@@ -32,30 +32,33 @@ header {
   padding-bottom: 20px;
   margin: 0 auto;
   font-family: Inconsolata, monospace;
-  padding: 25px 25px 0 25px;
+  padding: 0 25px;
 }
 
 .logo {
   float: left;
   margin-top: 7px;
+  padding-top: 25px;
 }
 
 .nav-links {
   float: right;
 }
 
-nav ul {
-  margin:0;
+.nav-links ul {
+  margin: 0;
   padding: 0;
   list-style: none;
 }
 
-nav li {
+.nav-links li {
   display: inline-block;
   position: relative;
+  margin-left: 10px;
+  padding-top: 25px;
 }
 
-nav a {
+.nav-links a {
   color: black;
   font-family: Inconsolata;
   text-decoration: none;
@@ -63,33 +66,30 @@ nav a {
   font-size: 16px;
 }
 
-nav a:hover {
+.nav-links a:hover {
   color: black;
 }
 
-nav a::before {
+.nav-links a::before {
   content: '';
   display: block;
   height: 5px;
   background-color: #444;
-
   position: absolute;
   top: 0;
   width: 0%;
-
   transition: all ease-in-out 250ms;
 }
 
-nav a:hover::before {
+.nav-links a:hover::before {
   width: 100%;
 }
 
-.extrawrapper{
+.banner {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("./images/SVG/Asset 8.SVG");
-  max-width: 100%;
+  background-image: url("./images/svg/banner_starry_sky.svg");
   position: relative;
 }
 
