@@ -7,7 +7,7 @@ body {
   padding: 0;
   font-family: Cutive Mono, sans-serif;
   font-weight: 400;
-  font-size: 1.5em;
+  font-size: 1.4em;
 }
 
 .container {
@@ -19,7 +19,6 @@ body {
 h1 {
   font-family: Cutive Mono, monospace;
   font-size: 24px;
-  margin: 0;
 }
 
 .clearfix::after {
@@ -137,7 +136,7 @@ header {
 .btn:link, .btn:visited {
   background-color: white;
   color: black;
-  border: 2px solid green;
+  border: 2px solid black;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
@@ -153,9 +152,72 @@ header {
   color: white;
 }
 
+.arrow {
+  display: block;
+  height: 35px;
+  width: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 75px;
+}
+
+.style1 {
+  border-top: 1px solid #8193A5;
+  background-color: white;
+  width: 80%;
+}
+
+.casestudy {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: white;
+  padding: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.casestudy-image {
+  display: inline-block;
+  background-image: url("./images/splash_screen.svg");
+  background-size: cover;
+  height: 450px;
+  width: 450px;
+}
+
+.casestudy-description {
+  display: inline-block;
+  padding-left: 50px;
+  max-width: 500px;
+}
+
+.casestudy-description h1 {
+background-image: linear-gradient(transparent 0%, transparent 65%, #8193A5 65%, #8193A5 100%, transparent 90%, transparent);
+  display: inline;
+}
+
+/* .casestudy2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color:  white;
+  padding: 50px;
+}
+
+.casestudy2-image {
+  display: inline-block;
+  background-image: url("./images/splash_screen_2.svg");
+  background-size: cover;
+  height: 450px;
+  width: 450px;
+  margin-bottom: 50px;
+} */
+
+
 @media only screen and (max-width: 1024px) {
   body {
     padding-bottom: 100px;
+    font-size: 1.3em;
   }
 
   .banner-content {
@@ -171,40 +233,28 @@ header {
     height: auto;
     margin-bottom: 40px;
   }
-}
 
   .casestudy {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: white;
-    padding: 50px;
+    flex-direction: column;
+    margin-top: 0;
   }
 
-  .casestudy-image {
-    display: inline-block;
-    background-image: url("./images/splash_screen.svg");
-    background-size: cover;
-    height: 450px;
-    width: 450px;
+  .casestudy2 {
+    flex-direction: column-reverse;
   }
 
   .casestudy-description {
-    display: inline-block;
-    padding: 50px;
+    padding: 5px;
+    max-width: 460px;
+    margin-top: 30px;
+  }
+
+  .casestudy-image {
+    height: 350px;
+    width: 350px;
   }
 
   .style1 {
-    border-top: 1px solid #8193A5;
-    background-color: white;
-    width: 80%;
+    width: 100%;
   }
-
-  .casestudy2-image {
-    display: inline-block;
-    background-image: url("./images/splash_screen.svg");
-    background-size: cover;
-    height: 450px;
-    width: 450px;
-    margin-bottom: 50px;
-  }
+}
