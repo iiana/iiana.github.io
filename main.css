@@ -8,11 +8,10 @@ body {
   font-family: Cutive Mono, sans-serif;
   font-weight: 400;
   font-size: 1.5em;
-  background-color: #8193A5;
 }
 
 .container {
-  max-width: 1400px;
+  max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -173,3 +172,39 @@ header {
     margin-bottom: 40px;
   }
 }
+
+  .casestudy {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    padding: 50px;
+  }
+
+  .casestudy-image {
+    display: inline-block;
+    background-image: url("./images/splash_screen.svg");
+    background-size: cover;
+    height: 450px;
+    width: 450px;
+  }
+
+  .casestudy-description {
+    display: inline-block;
+    padding: 50px;
+  }
+
+  .style1 {
+    border-top: 1px solid #8193A5;
+    background-color: white;
+    width: 80%;
+  }
+
+  .casestudy2-image {
+    display: inline-block;
+    background-image: url("./images/splash_screen.svg");
+    background-size: cover;
+    height: 450px;
+    width: 450px;
+    margin-bottom: 50px;
+  }
