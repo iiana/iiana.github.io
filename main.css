@@ -29,6 +29,12 @@ h1 {
   font-weight: 600;
 }
 
+h3 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #ff7575;
+}
+
 .container {
   max-width: 1440px;
   margin: 0 65px 50px 65px;
@@ -88,6 +94,7 @@ h1 {
 
 .main-section{
   height: 100vh;
+  padding: 70px;
 }
 
 .main-image{
@@ -101,5 +108,5 @@ h1 {
 }
 
 .main-content {
-  padding: 100px 50px;
+  padding: 250px 0px;
 }
