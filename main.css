@@ -112,7 +112,7 @@ h3 {
   padding: 250px 0px;
 }
 
-.main-content h2 {
+.header {
   background-image: linear-gradient(transparent 0%, transparent 65%, #ff7575 65%, #ff7575 100%, transparent 90%, transparent);
   display: inline;
 }
@@ -144,4 +144,14 @@ h3 {
   .main-content {
     padding: 10px;
   }
+}
+
+/* ls case study page */
+.image-overview {
+  display: inline-block;
+  float: right;
+}
+
+.overview {
+  display: inline-block;
 }
