@@ -92,6 +92,7 @@ h3 {
   padding-top: 250px;
 }
 
+/* main section */
 .main-section{
   height: 100vh;
   padding: 70px;
@@ -109,4 +110,38 @@ h3 {
 
 .main-content {
   padding: 250px 0px;
+}
+
+.main-content h2 {
+  background-image: linear-gradient(transparent 0%, transparent 65%, #ff7575 65%, #ff7575 100%, transparent 90%, transparent);
+  display: inline;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    margin: 0 15px 0 20px;
+  }
+
+  .banner {
+    padding-top: 22vh;
+  }
+
+  .main-section {
+    padding: 20px;
+  }
+
+  .main-image{
+    float: none;
+    margin-left: auto; /* is this even working? */
+    margin-right: auto;
+  }
+
+  .image-cover {
+    height: 350px;
+    width: 350px;
+  }
+
+  .main-content {
+    padding: 10px;
+  }
 }
