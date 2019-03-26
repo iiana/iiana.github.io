@@ -14,6 +14,14 @@ body {
   background-color: #ee6264; !important
 }
 
+.overflow-hidden-x {
+  overflow-x: hidden;
+}
+
+.vertically-centered-row {
+  align-items: center;
+}
+
 . banner p {
   max-width: 700px;
 }
