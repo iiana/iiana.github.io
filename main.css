@@ -10,6 +10,10 @@ body {
   margin: 0;
 }
 
+.red {
+  background-color: #ee6264; !important
+}
+
 . banner p {
   max-width: 700px;
 }
