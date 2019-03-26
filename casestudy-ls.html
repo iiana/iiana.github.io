@@ -24,9 +24,9 @@
     </header>
 
     <div class="container-fluid bg-light">
-      <div class="container ">
+      <div class="container">
         <div class="row">
-          <div class="overview col-md-8 mt-5">
+          <div class="col-md-8 mt-5">
             <h6>Overview</h6>
             <h2 class="header">Challenge</h2>
             <p>To be a viable product in the space, League Swype needed to be sticker with users.
@@ -38,7 +38,7 @@
               we developed a more transparent workflow so that users would know what to expect.
             </p>
           </div>
-          <div class="image-overview col-md-4 mt-4">
+          <div class="col-md-4 mt-4">
             <img src="./images/ls_desktop_view.png" alt="desktop view" style="max-height: 400px;">
           </div>
         </div>
@@ -59,26 +59,86 @@
           </div>
 
           <div class="col-md-3">
-            <h6>Length of the project:
-            </h6>
+            <h6>Length of the project:</h6>
             <p>4 weeks</p>
-            <h6>Role:
-            </h6>
+            <h6>Role:</h6>
             <p>UX designer</p>
           </div>
         </div>
       </div>
     </div>
 
-
     <div class="container">
-      <div class="background mt-5">
+      <div class="mt-5">
         <h6>Learn</h6>
         <h2 class="header">Background</h2>
         <p>League Swype is a tech startup that aims to make online fantasy sports management and payment easy,
           fun, and engaging. When we jumped on the project, the product was in beta.
           This version included functionality to create a league, invite friends, deposit money, and receive payouts.
           At this point, the product was essentially a digital wallet with some basic user management.</p>
+      </div>
+      <div class="col-md-12 p-0">
+        <img src="./gifs/current_experience.gif" alt="current website recording" class="mw-100">
+        <p class="font-italic small">Screenshot of beta app</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class=" col-lg-12 mt-5">
+          <h2 class="header">Identifying Constraints</h2>
+          <p>“I know it’s painful [the money deposits]”, said Darius, the founder of League Swype.
+            “I am hoping you can figure out a way around this”. <br><br>Recently, the payment processor
+            League Swype’s beta was built around - Skrill - got acquired by PaySafe. This resulted
+            in Skrill’s rules around accepting payments to change, in a way that made the process
+            really painful and unclear for users. Users need to deposit money into their League Swype
+            account so that they can pay dues to fantasy sports leagues that they are a member of.
+          </p>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-md-3"> <!--how do I center this on mobile?-->
+          <img src="./images/ls_financial_structure.png" alt="financial structure" class="mw-100 mb-2" style="max-height: 300px;">
+          <p class="font-italic small">League Swype financial structure</p>
+        </div>
+        <div class="col-md-9 mt-4">
+          <p>To deposit money on a League Swype account, new users had to do the following:br</p>
+          <ol>
+            <li>Create a League Swype account.</li>
+            <li>Sign up for Skrill. This includes providing a full SSN, pictures of the front/back of a driver’s
+              license, and a few more really invasive and manual steps. Signing up for Skrill for the first time
+              also requires an approval process that takes an inconsistent amount of time.</li>
+            <li>Deposit money into the Skrill account. This happens on Skrill’s website, not League Swype.
+              Deposit fees range from one to six percent depending on the payment method.</li>
+            <li>Transfer money from Skrill into the League Swype account. There is a four
+              percent deposit fee applied in this process.</li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class=" col-lg-12 mt-5">
+          <p>We needed to dig into whether or not using Skrill was a hard constraint.
+            To answer this question, we looked into the following:
+          </p>
+          <ul>
+            <li>What do competitors do?</li>
+            <li>Could we use tokenization as a workaround?</li>
+            <li>Could League Swype operate without an escrow account?</li>
+            <li>Is there a payment processor that would allow credit and debit
+              card payments for a fantasy sports application?</li>
+          </ul>
+          <p>Within one week my team got to talk to two experts in <a href="https://en.wikipedia.org/wiki/Money_laundering#Anti-money_laundering">AML</a>
+            (anti-money-laundering)and <a href="https://en.wikipedia.org/wiki/Know_your_customer">KYC</a> (know-your-customer). We learned that
+            although it is not legally considered gambling, the fantasy sports industry is under scrutiny and
+            considered high risk by insurance companies. Without the insurance, it is difficult to get approved
+            for a merchant account by most payment processors. We also looked into tokenization through Unikrn -
+            a betting app for online gaming. Unikrn used tokens but also required a Skrill account, which led us to
+            believe that tokenization would be another dead end. <br><br>Given time constraints and the level of available funding for League Swype, Darius and us made the call to move forward with the assumption that Skrill would be the payment processor backing the app.
+          </p>
+        </div>
       </div>
     </div>
 
