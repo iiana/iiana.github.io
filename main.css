@@ -52,6 +52,12 @@ h3 {
   color: #ff7575;
 }
 
+h6 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ff7575; !important
+}
+
 .section {
   max-width: 1440px;
   margin: 0 auto;
