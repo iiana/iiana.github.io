@@ -133,18 +133,8 @@ h6 {
   margin: 0, auto;
 }
 
-<<<<<<< HEAD
-.banner-content {
-  margin-top: 150px;
-  max-width: 600px;
-  background-color: #8193a5;
-  margin-left: auto;
-  margin-right: 15%;
-  position: relative;
-=======
 .banner h1 {
   font-size: 60px;
->>>>>>> 19ab76d7b4a9dd3b35c817b9f6b45ed92b75714c
 }
 
 .banner-text {
