@@ -230,6 +230,7 @@ h6 {
 /* about me page */
 
 blockquote {
+  background-color: white;
   border-color: #ff6666;
   border-left-style: solid;
   border-left-width: 15px;
