@@ -8,7 +8,6 @@ body {
   font-weight: normal;
   padding: 0;
   margin: 0;
-  padding-bottom: 50px;
 }
 
 .align-center {
@@ -143,31 +142,6 @@ h6 {
 }
 
 /* main section */
-.main-section {
-  align-items: center;
-  background-color: white;
-  display: flex;
-  flex-direction: row-reverse;
-  height: 100vh;
-  justify-content: space-evenly;
-  padding: 65px;
-}
-
-.main-image {
-  display: inline-block;
-  float: right;
-}
-
-.image-cover {
-  max-height: 500px;
-}
-
-.main-content {
-  display: inline-block;
-  max-width: 500px;
-  padding: 260px 0px;
-}
-
 .header {
   background-image: linear-gradient(transparent 0%, transparent 65%, #ff7575 65%, #ff7575 100%, transparent 90%, transparent);
   display: inline-block;
