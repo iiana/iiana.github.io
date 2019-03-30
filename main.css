@@ -8,6 +8,7 @@ body {
   font-weight: normal;
   padding: 0;
   margin: 0;
+  padding-bottom: 50px;
 }
 
 .align-center {
@@ -18,7 +19,6 @@ body {
   align-items: center;
   justify-content: center;
 }
-
 
 .container {
   max-width: 960px; !important
@@ -179,7 +179,8 @@ h6 {
 
 .header {
   background-image: linear-gradient(transparent 0%, transparent 65%, #ff7575 65%, #ff7575 100%, transparent 90%, transparent);
-  display: inline;
+  display: inline-block;
+  margin-bottom: 10px;
 }
 
 @media only screen and (max-width: 900px) {
