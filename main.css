@@ -10,21 +10,8 @@ body {
   margin: 0;
 }
 
-.align-center {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  position: fixed;
-  align-items: center;
-  justify-content: center;
-}
-
 .container {
   max-width: 960px; !important
-}
-
-.red {
-  background-color: #ee6264; !important
 }
 
 .overflow-hidden-x {
@@ -130,7 +117,6 @@ h6 {
   background-color: #ff6666; /* #ff7575 - websafe*/
   min-height: 100vh;
   padding: 250px  65px 50px 65px;
-  margin: 0, auto;
 }
 
 .banner h1 {
@@ -165,31 +151,6 @@ h6 {
 
   .banner-text {
     max-width: 100%;
-  }
-
-  .main-section {
-    padding: 20px;
-  }
-
-  .main-image{
-    float: none;
-    margin-left: auto; /* is this even working? */
-    margin-right: auto;
-  }
-
-  .image-cover {
-    max-height: 350px;
-  }
-
-  .main-content {
-    max-width: 460px;
-    margin-top: 30px;
-    padding: 5px;
-  }
-
-  .main-section {
-    flex-direction: column;
-    margin-top: 0;
   }
 }
 
