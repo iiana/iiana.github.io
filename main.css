@@ -141,6 +141,8 @@ h6 {
   margin-bottom: 10px;
 }
 
+
+
 @media only screen and (max-width: 900px) {
   .nav-links {
     margin-right: 25px;
@@ -160,8 +162,6 @@ h6 {
     max-width: 100%;
   }
 }
-
-/* about me page */
 
 blockquote {
   background-color: white;
