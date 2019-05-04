@@ -10,6 +10,21 @@ body {
   margin: 0;
 }
 
+#contents:hover div {
+    display: block !important;
+  }
+
+.contents {
+  position:fixed;
+  width:200px;
+  right:0;
+  top:0;
+}
+
+.expanded {
+  display: none;
+}
+
 .container {
   max-width: 960px; !important
 }
