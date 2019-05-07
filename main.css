@@ -176,6 +176,14 @@ h6 {
   .banner-text {
     max-width: 100%;
   }
+
+  .headshot {
+    display: none;
+  }
+
+  .headshot-mobile {
+    visibility: visible !important;
+  }
 }
 
 blockquote {
