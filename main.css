@@ -173,8 +173,9 @@ h6 {
     visibility: visible !important;
   }
 
-  .casestudy-image {
+  .image-mobile {
     max-width: 450px;
+    max-height: 400px;
   }
 }
 
