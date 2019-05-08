@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-  max-width: 960px; !important
+  max-width: 1020px !important;
 }
 
 .container-fluid {
@@ -165,14 +165,6 @@ h6 {
     max-width: 100%;
   }
 
-  .headshot {
-    display: none;
-  }
-
-  .headshot-mobile {
-    visibility: visible !important;
-  }
-
   .image-mobile {
     max-width: 450px;
     max-height: 400px;
@@ -196,19 +188,25 @@ blockquote {
 
 /* footer */
 .footer-links {
-  float: right;
-  margin-right: 70px;
+  padding: 20px;
 }
 
 .footer-links ul {
   list-style: none;
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 .footer-links li {
   display: inline-block;
-  margin-left: 25px;
-  padding-bottom: 25px;
-  position: relative;
+}
+
+.footer-links a {
+  font-size: 30px;
+  color: gray;
+}
+
+.footer-links a:hover {
+  color: blue;
 }
