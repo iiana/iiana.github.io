@@ -8,12 +8,13 @@
     <link rel="stylesheet" type="text/css" href="./main.css">
   </head>
 
-  <body class="pb-5">
+  <body>
     <header>
       <div class="container-fluid mb-3 mr-5">
         <div class="row justify-content-end">
           <nav class="nav-links">
             <ul class="nav justify-content-end">
+              <li><a href="./index.html">home</a></li>
               <li><a href="./index.html#work">work</a></li>
               <li><a href="./index.html#about">about</a></li>
             </ul>
@@ -74,9 +75,35 @@
       </div>
     </div>
 
-    <div class="container-fluid bg-light overflow-hidden-x">
-      <div class="container">
-        <div class="row mt-5">
+    <div class="container-fluid bg-light">
+      <div class="container pt-5 pb-4">
+        <div>
+          <h6>Table of contents</h6>
+          <ul class="list-unstyled">
+            <li><a href="./casestudy-ls.html#overview">Overview</a></li>
+            <li><a href="./casestudy-ls.html#learn">Learn</a></li>
+            <ul>
+              <li><a href="./casestudy-ls.html#background">Background</a></li>
+              <li><a href="./casestudy-ls.html#identifying_constraints">Identifying constraints</a></li>
+              <li><a href="./casestudy-ls.html#identifying_users">Identifying users</a></li>
+              <li><a href="./casestudy-ls.html#research-highlight">Research highlight</a></li>
+            </ul>
+            <li><a href="./casestudy-ls.html#ideate">Ideate</a></li>
+            <ul>
+              <li><a href="./casestudy-ls.html#solutions">Solutions</a></li>
+              <li><a href="./casestudy-ls.html#problem_1">The Skrill problem</a></li>
+              <li><a href="./casestudy-ls.html#problem_2">The desirablity problem</a></li>
+            </ul>
+            <li><a href="./casestudy-ls.html#conclusion">Conclusion</a></li>
+            <li><a href="./casestudy-ls.html#personal_reflection">Personal reflection</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-dark text-white overflow-hidden-x">
+      <div class="container" id="overview">
+        <div class="row mt-5 mb-5">
           <div class="col-md-8 mt-1">
             <h3>Overview</h3>
             <h2 class="header">Challenge</h2>
@@ -92,30 +119,8 @@
               we designed a more transparent workflow so that users would know what to expect.
             </p>
           </div>
-          <div class="col-md-4 pl-5 mt-5">
-            <h6>Table of contents</h6>
-            <ul class="list-unstyled">
-              <li><a href="./casestudy-ls.html#learn">Learn</a></li>
-              <ul>
-                <li><a href="./casestudy-ls.html#background">Background</a></li>
-                <li><a href="./casestudy-ls.html#identifying_constraints">Identifying constraints</a></li>
-                <li><a href="./casestudy-ls.html#identifying_users">Identifying users</a></li>
-                <li><a href="./casestudy-ls.html#research-highlight">Research highlight</a></li>
-              </ul>
-              <li><a href="./casestudy-ls.html#ideate">Ideate</a></li>
-              <ul>
-                <li><a href="./casestudy-ls.html#solutions">Solutions</a></li>
-                <li><a href="./casestudy-ls.html#failures">Failures</a></li>
-                <li><a href="./casestudy-ls.html#problem_1">The Skrill problem</a></li>
-                <li><a href="./casestudy-ls.html#problem_2">The desirablity problem</a></li>
-              </ul>
-              <li><a href="./casestudy-ls.html#conclusion">Conclusion</a></li>
-              <li><a href="./casestudy-ls.html#personal_reflection">Personal reflection</a></li>
-            </ul>
-          </div>
         </div>
       </div>
-      <div class="row mt-5 mb-5"></div>
     </div>
 
     <div class="container" id="learn">
@@ -257,7 +262,7 @@
       </div>
 
       <div class="row">
-        <div class="col vertically-centered-row mt-5">
+        <div class="col vertically-centered-row mt-5 mb-5">
           <h6>Other useful insights</h6>
           <ul>
             <li>Fantasy sports players love trash talking. It’s an enjoyable and fun part of the culture</li>
@@ -280,7 +285,7 @@
             <br><br><strong>Our results indicated that people cared enough about #1 and #2 to pay, and the transparency was the most important aspect of the three.</strong></p>
         </div>
         <div class="mt-5 text-center">
-          <img src="./images/test_results.png" alt="test result chart" class="text-center">
+          <img src="./images/test_results.png" alt="test result chart" class="text-center mw-100">
           <p class="font-italic small mb-3">Test results</p>
         </div>
       </div>
@@ -419,15 +424,6 @@
       </div>
     </div>
 
-    <div class="container-fluid bg-dark p-5 text-white">
-      <div class="container">
-        <div>
-          <h2 class="header">Idea Graveyard (and other failures)</h2>
-          <p></p>
-        </div>
-      </div>
-    </div>
-
     <div class="container-fluid bg-light pt-5 pb-5" id="conclusion">
       <div class="container">
         <div>
@@ -461,6 +457,7 @@
           <ul>
             <li>Understanding the owner’s journey better and developing features that focus on the owner’s use cases</li>
             <li>Other opportunities to extract from the relationship between owners and commissioners</li>
+            <li>Digging into peer-to-peer payments area</li>
             <li>Technical constraints for getting data out of fantasy providers</li>
           </ul>
         </div>
@@ -486,9 +483,9 @@
     <div class="container-fluid bg-dark p-5 text-white">
       <div class="container">
         <div>
-          <h2 class="header">For More</h2>
-          <p>To cut the story short I have ommited a lot of details, if you have any questions or would like to see a
-            particular artifact, please, do not hesitate and contact me at: <strong><a href="mailto:ianaiavorskaia@gmail.com">ianaiavorskaia@gmail.com</a></strong></p>
+          <h2 class="header">For More Details</h2>
+          <p>To cut the story short I have omitted a lot of details. If you have any questions or would like to see a
+            particular artifact, please, do not hesitate to contact me at: <strong><a href="mailto:ianaiavorskaia@gmail.com">ianaiavorskaia@gmail.com</a></strong></p>
         </div>
       </div>
     </div>
