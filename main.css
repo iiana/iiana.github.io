@@ -61,7 +61,8 @@ body {
 }
 
 h1 {
-  color: white;
+  color: black;
+  font-family: "helveticaneue", sans-serif;
   font-size: 48px;
   font-weight: 600;
 }
@@ -131,9 +132,9 @@ h6 {
 
 /* banner */
 .banner {
-  background-color: #ff6666; /* #ff7575 - websafe*/
+  background-color: white;
   min-height: 100vh;
-  padding: 250px  65px 50px 65px;
+  padding: 250px  65px 50px 100px;
 }
 
 .banner h1 {
@@ -142,6 +143,7 @@ h6 {
 
 .banner-text {
   max-width: 70%;
+  padding-top: 200px;
 }
 
 /* main section */
@@ -168,7 +170,7 @@ h6 {
   .banner {
     padding-top: 22vh;
     padding-right: 15px;
-    padding-left: 20px;
+    padding-left: 70px;
   }
 
   .banner h1 {
@@ -177,6 +179,7 @@ h6 {
 
   .banner-text {
     max-width: 100%;
+    padding-top: 300px;
   }
 
   .image-mobile {
