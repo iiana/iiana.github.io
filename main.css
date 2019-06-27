@@ -67,6 +67,11 @@ h1 {
   font-weight: 600;
 }
 
+h2 {
+  font-family: "helveticaneue", sans-serif;
+  font-weight: 600;
+}
+
 h3 {
   font-size: 15px;
   font-weight: 600;
@@ -74,9 +79,10 @@ h3 {
 }
 
 h6 {
+  font-family: "helveticaneue", sans-serif;
   font-size: 18px;
   font-weight: 600;
-  color: #ff7575 !important;
+  color: #ff7575;
 }
 
 /* navigation */
@@ -86,6 +92,8 @@ h6 {
 }
 
 .nav-links ul {
+  display: flex;
+  align-items: center;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -128,6 +136,22 @@ h6 {
 
 .active a::before {
   width: 100%;
+}
+
+.nav-button {
+  background-color: #fb2b69;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 10px 15px 10px 15px;
+}
+
+.nav-button:hover, .nav-button:active {
+  border: 2px solid #fb2b69;
+  color: black;
+  cursor: pointer;
 }
 
 /* banner */
