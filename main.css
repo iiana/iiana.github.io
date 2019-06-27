@@ -138,21 +138,6 @@ h6 {
   width: 100%;
 }
 
-.nav-button {
-  background-color: #fb2b69;
-  color: white;
-  cursor: pointer;
-  display: inline-block;
-  font-weight: 600;
-  text-decoration: none;
-  padding: 10px 15px 10px 15px;
-}
-
-.nav-button:hover, .nav-button:active {
-  border: 2px solid #fb2b69;
-  color: black;
-  cursor: pointer;
-}
 
 /* banner */
 .banner {
