@@ -46,7 +46,7 @@ body {
 }
 
 .button:link, .button:visited {
-  background-color: white;
+  background-color: none;
   color: black;
   border: 2px solid black;
   padding: 10px 20px;
