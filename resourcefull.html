@@ -13,7 +13,7 @@
   <body>
     <header>
       <div class="container-fluid mb-3 mr-5">
-        <div class="row justify-content-end">
+        <div class="row navigation">
           <nav class="nav-links">
             <ul class="nav justify-content-end">
               <li><a href="./index.html">home</a></li>
@@ -44,8 +44,8 @@
         </div>
       </div>
 
-      <div class="row pb-5">
-        <div class="col-md-4 offset-md-2 pt-5 pl-4 vertically-centered-row">
+      <div class="row pb-5 pt-5">
+        <div class="col-md-4 pl-4 vertically-centered-row">
           <h3>Role:</h3>
           <ul class="list-unstyled">
             <li>UX designer</li>
@@ -53,10 +53,9 @@
           <h3>Length of the project:</h3>
           <p>6 weeks</p>
           <h3>Type:</h3>
-          <ul>
+          <ul class="list-unstyled">
             <li>Study project</li>
           </ul>
-
           <h3>Tools used:</h3>
           <ul>
             <li>Marvel</li>
@@ -64,9 +63,8 @@
           </ul>
         </div>
 
-        <div class="col-md-4 pt-5 pl-4 vertically-centered-row">
-          <h3>UX tactics included:
-          </h3>
+        <div class="col-md-4 pl-4 vertically-centered-row">
+          <h3>UX tactics included:</h3>
           <ul>
             <li>Direct/Indirect Competitor Profiling</li>
             <li>Unstructured/Structured Interviews</li>
@@ -76,30 +74,60 @@
             <li>Usability Testing</li>
           </ul>
         </div>
+
+        <div class="col-md-4">
+          <h3>Table of contents:</h3>
+          <a href="#overview">Overview</a>
+          <ul>
+            <li><a href="#challenge">Challenge</a></li>
+            <li><a href="#outcome">Outcome</a></li>
+          </ul>
+          <a href="#research">Research</a>
+          <ul>
+            <li><a href="#competition">Competition</a></li>
+            <li><a href="#smes">SMEs</a></li>
+            <li><a href="#users">Users</a></li>
+          </ul>
+          <a href="#user">User</a>
+          <ul>
+            <li><a href="#persona">Persona</a></li>
+            <li><a href="#journey_map">Journey map</a></li>
+          </ul>
+          <a href="#problem">Problem</a>
+          <ul>
+            <li><a href="#additional_research">Additional research</a></li>
+            <li><a href="problem_statement">Problem statement</a></li>
+          </ul>
+          <a href="#ideating">Ideating</a>
+          <ul>
+            <li><a href="#extension">Extension</a></li>
+            <li><a href="#prototype">Prototyping and usability</a></li>
+          </ul>
+          <a href="#recommendations">Recommendations</a>
+        </div>
       </div>
     </div>
 
     <div class="container-fluid background-gray">
       <div class="container pt-5 pb-5">
-        <h3>Overview</h3>
+        <h3 class="pl-3" id="overview">Overview</h3>
         <div class="col-md-8 offset-md-2">
-          <h2>Challenge</h2>
+          <h2 class="header" id="challenge">Challenge</h2>
           <p>My team of three designers was challenged to create a digital product
             to help the library strengthen its community. The assignment was vague
             which opened a lot of doors for the research. One thing we knew for sure
             is that most public libraries are already adapting to digital standards
             and should not stop.</p>
+          <blockquote class="p-4">
+            “Today we are in the midst of a tremendous shift in the way Americans
+            consume literature and other content, but one thing has not changed —
+            the library must continue to play a central role in providing open and
+            free access to information and ideas.” <br>- Huffington Post
+          </blockquote>
         </div>
 
-        <blockquote class="col-md-8 offset-md-2 p-4">
-          “Today we are in the midst of a tremendous shift in the way Americans
-          consume literature and other content, but one thing has not changed —
-          the library must continue to play a central role in providing open and
-          free access to information and ideas.” <br>- Huffington Post
-        </blockquote>
-
         <div class="col-md-8 offset-md-2">
-          <h2>Outcome</h2>
+          <h2 class="header" id="outcome">Outcome</h2>
           <p>In the process of our research, we discovered a unique cognitive
             dissonance between what users believed and how they acted that led
             us to the creation of a plugin that can connect the user and the library.</p>
@@ -108,9 +136,9 @@
     </div>
 
     <div class="container pt-5 pb-5">
-      <h3>Research</h3>
+      <h3 class="pl-3" id="research">Research</h3>
       <div class="col-md-8 offset-md-2">
-        <h2>Competition</h2>
+        <h2 class="header" id="competition">Competition</h2>
         <p>The first obstacle was to find who presents competition to the library.
           We decided to push off the library mission. </p>
           <blockquote class="p-4">“We welcome and support all people in their enjoyment of
@@ -135,7 +163,7 @@
 
     <div class="container">
       <div class="col-md-8 offset-md-2">
-        <h2>SMEs interviews</h2>
+        <h2 class="header" id="smes">SMEs interviews</h2>
         <p>Given how abstract our challenge was we needed to talk to some experts to
           further narrow down the problems. As a team, we have spoken with a total of
           six librarians fulfilling different roles in different libraries. We have chosen
@@ -157,7 +185,7 @@
 
     <div class="container pt-5 pb-5">
       <div class="col-md-8 offset-md-2">
-        <h2>User research</h2>
+        <h2 class="header" id="users">User research</h2>
         <p><strong>Why is it hard to reach young professionals?</strong></p>
         <p>We were onto something. We needed to understand what brings regular
           patrons (all ages) to the library, what do young professionals believe
@@ -191,10 +219,10 @@
 
     <div class="container-fluid background-gray">
       <div class="container pt-5 pb-5">
-        <h3>User</h3>
+        <h3 class="pl-3" id="user">User</h3>
         <div class="col-md-8 offset-md-2">
-          <h2>User persona</h2>
-          <img src="./images/rf_hector.jpeg" alt="persona">
+          <h2 class="header" id="persona">User persona</h2>
+          <img src="./images/rf_hector.jpeg" alt="persona" class="mw-100">
           <p>Hector Williams <br>The social butterfly <br>Age: 32</p>
           <blockquote class="p-4">“I stay pretty busy.”
           </blockquote>
@@ -217,16 +245,16 @@
             <li>Making connections with other people/social opportunities</li>
             <li>Learn something every day</li>
           </ul>
-          <h2>Journey map</h2>
-          <img src="./images/journey_map.png" alt="journey map">
+          <h2 class="header" id="journey_map">Journey map</h2>
+          <img src="./images/journey_map.png" alt="journey map" class="mw-100">
         </div>
       </div>
     </div>
 
     <div class="container pt-5 pb-5">
-      <h3>Problem statement</h3>
+      <h3 class="pl-3" id="problem">Problem</h3>
       <div class="col-md-8 offset-md-2">
-        <h2>Additional research</h2>
+        <h2 class="header" id="additional_research">Additional research</h2>
         <p>As a team, we decided to dig deeper into the whole credibility issue.
           Additional research helped us to define the following dissonance:</p>
         <ul class="unstyled">
@@ -237,26 +265,28 @@
             <strong>- Need</strong></li>
           <li>66% of millennials interviewed by us prefer using the Internet
             and don’t use library services because they find them inconvenient.
-          <strong>- Contradicting behavior</strong></li>
+          <br><strong>- Contradicting behavior</strong></li>
         </ul>
         <p><strong>Why are library trust and usage is on a rise for millennials,
           and yet millennials we were talking too didn't use it?</strong></p>
       </div>
     </div>
 
-    <div class="container pt-5 pb-5">
-      <div class="col-md-8 offset-md-2">
-        <h2>Problem statement</h2>
-        <p>The internet is a great resource for providing information quickly, but
-          it’s not always credible. Young professionals need a flexible, reliable
-          and fast way to learn more about their interests from sources they trust.</p>
-      </div>
+    <div class="container-fluid background-gray">
+      <div class="container pt-5">
+        <div class="col-md-8 offset-md-2">
+          <h2 class="header" id="problem_statement">Problem statement</h2>
+          <p>The internet is a great resource for providing information quickly, but
+            it’s not always credible. Young professionals need a flexible, reliable
+            and fast way to learn more about their interests from sources they trust.</p>
+        </div>
+`     </div>`
     </div>
 
     <div class="container pt-5 pb-5">
-      <h3>Ideating</h3>
+      <h3 class="pl-3" id="ideating">Ideating</h3>
       <div class="col-md-8 offset-md-2">
-        <h2>Extension</h2>
+        <h2 class="header" id="extension">Extension</h2>
         <p>At first, we thought that it should be mobile since most young professionals
           seem to spend the most time on their <strong>phone</strong>. But a person wants to have only
           that many apps, why compete with FB and google for the space on the user's phone.
@@ -266,8 +296,8 @@
           when we thought of <strong>extension</strong>. This would allow us to meet user right where they
           need us. They read something online, they doubt it and they can get help from the
           library right there.</p>
-        <a href="https://projects.invisionapp.com/share/MJPA1Y5P6VH#/screens">Initial prototype</a>
-        <p><strong>Feedback</strong></p>
+        <a href="https://projects.invisionapp.com/share/MJPA1Y5P6VH#/screens" target="_blank">Initial prototype link</a>
+        <p class="mt-3"><strong>Feedback</strong></p>
         <ul class="unstyled">
           <li>Not enough signs of credibility</li>
           <li>Need a better search results structure</li>
@@ -276,31 +306,56 @@
       </div>
     </div>
 
-    <div class="container pt-5 pb-5">
-      <div class="col-md-8 offset-md-2">
-        <h2>Prototyping and usability testing</h2>
-        <a href="https://1gzrol.axshare.com/#g=1&p=1_0_welcome">Link to the full prototype</a>
-        <img src="./images/rf_search_results.png" alt="search results">
-        <img src="./images/rf_individual_result.png" alt="individual result">
-        <p>Users interested in a topic can search via the extensions to find
-          credible resources on said topic.</p>
+    <div class="container-fluid background-gray">
+      <div class="container pt-5 pb-5">
+        <div>
+          <h2 class="header mb-3" id="prototype">Prototyping and usability testing</h2>
+          <br>
+          <a href="https://1gzrol.axshare.com/#g=1&p=1_0_welcome" target="_blank">Link to the full prototype</a>
+        </div>
+
+        <div class="row vertically-centered-row pt-5 pb-5">
+          <div class="col-md-4">
+            <p>Users interested in a topic can search via the extensions to find
+              credible resources on said topic.</p>
+          </div>
+          <div class="col-md-4 text-center">
+            <img src="./images/rf_search_results.png" alt="search results" class="mw-100 shadow-sm rounded ">
+          </div>
+          <div class="col-md-4 text-center">
+            <img src="./images/rf_individual_result.png" alt="individual result" class="mw-100 shadow-sm rounded">
+          </div>
+        </div>
       </div>
     </div>
 
+
     <div class="container pt-5 pb-5">
-      <div class="col-md-8 offset-md-2">
-        <img src="./images/rf_no_results.png" alt="no search results screen">
-        <img src="./images/rf_subject_request.png" alt="subject request screen">
-        <p>If a user’s search returns no results, they can send a request for
-          credible information.</p>
+      <div class="row reverse vertically-centered-row">
+        <div class="col-md-4 text-center">
+          <img src="./images/rf_no_results.png" alt="no search results screen" class="mw-100 shadow-sm rounded">
+        </div>
+        <div class="col-md-4 text-center">
+          <img src="./images/rf_subject_request.png" alt="subject request screen" class="mw-100 shadow-sm rounded">
+        </div>
+        <div class="col-md-4">
+          <p>If a user’s search returns no results, they can send a request for
+            credible information.</p>
+        </div>
       </div>
     </div>
 
-    <div class="container pt-5 pb-5">
-      <div class="col-md-8 offset-md-2">
-        <img src="./images/rf_report.png" alt="screen for reporting non-credible resource">
-        <p>If a user thinks a source is non-credible, they have the option of reporting
-          it for review.</p>
+    <div class="container-fluid background-gray">
+      <div class="container pt-5 pb-5">
+        <div class="row vertically-centered-row">
+          <div class="col-md-7">
+            <p>If a user thinks a source is non-credible, they have the option of reporting
+              it for review.</p>
+          </div>
+          <div class="col-md-4  offset-md-1 text-center">
+            <img src="./images/rf_report.png" alt="screen for reporting non-credible resource" class="mw-100 shadow rounded">
+          </div>
+        </div>
       </div>
     </div>
 
@@ -318,9 +373,9 @@
 
     <div class="container-fluid background-gray">
       <div class="container pt-5 pb-5">
-        <h3>Moving forward</h3>
+        <h3 class="pl-3" id="recommendations">Moving forward</h3>
         <div class="col-md-8 offset-md-2">
-          <h2>Recommendations:</h2>
+          <h2 class="header">Recommendations:</h2>
           <ul class="unstyled">
             <li>Focus on how information is curated</li>
             <li>Adding validation method such as reCaptcha</li>
