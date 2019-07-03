@@ -36,20 +36,22 @@ body {
 
 .button {
   border: 2px solid black;
+  border-radius: 40px;
   color: black;
   cursor: pointer;
   display: inline-block;
-  font-weight: 600;
+  font-family: "helveticaneue", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
   margin-top: 30px;
-  padding: 10px;
   text-decoration: none;
 }
 
 .button:link, .button:visited {
   background-color: none;
   color: black;
-  border: 2px solid black;
-  padding: 10px 20px;
+  border: 1px solid black;
+  padding: 7px 22px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
