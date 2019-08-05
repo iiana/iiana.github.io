@@ -217,6 +217,10 @@ blockquote {
   .navigation {
     justify-content: center;
   }
+
+  .banner-text {
+    padding: 250px  65px 0px 20px;
+  }
 }
 
 /* footer */
