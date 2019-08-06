@@ -71,6 +71,7 @@ h1 {
 
 h2 {
   font-family: "helveticaneue", sans-serif;
+  font-size: 28px;
   font-weight: 600;
 }
 
@@ -192,6 +193,7 @@ h6 {
   .banner-text {
     max-width: 100%;
     padding-top: 300px;
+    padding-left: 20px;
   }
 
   .image-mobile {
