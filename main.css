@@ -167,12 +167,8 @@ h6 {
   margin-bottom: 10px;
 }
 
-.background-beige {
-  background-color: #FCEDEC;
-}
-
-.background-gray {
-  background-color: #EDEFF1;
+.background-pink {
+  background-color: #fff7f2;
 }
 
 @media only screen and (max-width: 900px) {
