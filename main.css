@@ -171,6 +171,10 @@ h6 {
   background-color: #fff7f2;
 }
 
+.background-dark {
+  background-color: #2D3047;
+}
+
 @media only screen and (max-width: 900px) {
   .nav-links {
     margin-right: 25px;
