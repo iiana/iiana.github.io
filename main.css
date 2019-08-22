@@ -168,7 +168,7 @@ h6 {
 }
 
 .background-pink {
-  background-color: #fff7f2;
+   background-image: linear-gradient(to bottom right, #fffafa, #ffdbd9);
 }
 
 .background-dark {
