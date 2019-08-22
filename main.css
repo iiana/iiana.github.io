@@ -88,6 +88,11 @@ h6 {
   color: #ff7575;
 }
 
+hr {
+  border-color: #ff8a7e;
+  border-style: dashed;
+}
+
 /* navigation */
 .navigation{
   justify-content:flex-end;
