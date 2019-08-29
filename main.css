@@ -1,9 +1,10 @@
 * {
   box-sizing: border-box;
-  font-family: Georgia, serif ;
+  font-family: raleway, sans-serif ;
 }
 
 body {
+  font-family: raleway, sans-serif;
   font-size: 18px;
   font-weight: normal;
   padding: 0;
@@ -64,18 +65,19 @@ body {
 
 h1 {
   color: black;
-  font-family: "helveticaneue", sans-serif;
+  font-family: "abril fatface", serif;
   font-size: 48px;
   font-weight: 600;
 }
 
 h2 {
-  font-family: "helveticaneue", sans-serif;
-  font-size: 28px;
+  font-size: 32px;
   font-weight: 600;
+  letter-spacing: 1px;
 }
 
 h3 {
+  font-family: "helveticaneue", serif;
   font-size: 15px;
   font-weight: 600;
   color: #ff7575;
@@ -168,7 +170,7 @@ hr {
 .header {
   background-image: linear-gradient(transparent 0%, transparent 65%, #ff7575 65%, #ff7575 100%, transparent 90%, transparent);
   display: inline-block;
-  font-family: "helveticaneue", sans-serif;
+  font-family: "abril fatface", serif;
   margin-bottom: 10px;
 }
 
