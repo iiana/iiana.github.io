@@ -91,7 +91,7 @@
             </ul>
             <li><a href="./casestudy-ls.html#ideate">Ideate</a></li>
             <ul>
-              <li><a href="./casestudy-ls.html#solutions">Solutions</a></li>
+              <li><a href="./casestudy-ls.html#ideate">Solutions</a></li>
               <li><a href="./casestudy-ls.html#problem_1">The Skrill problem</a></li>
               <li><a href="./casestudy-ls.html#problem_2">The desirablity problem</a></li>
             </ul>
@@ -311,13 +311,18 @@
         <p class="font-italic small mb-3 pt-4">Test results</p>
       </div>
 
-      <div class="col-md-9 offset-md-3 mb-5 mt-5 pb-3">
-        <p>
-          After some thought, we decided that we could make the biggest impact in the first half of
-          the user journey. Playoffs and payouts take a while to actually get to because of how long
-          fantasy sports seasons are. <strong>We needed to focus on getting users signed up by creating a great
-          first impression and high initial value.</strong>
-        </p>
+      <div class="row row-no-margins  mb-5 mt-5 pb-5">
+        <div class="col-md-2">
+          <h2 class="header">Journey</h2>
+        </div>
+        <div class="col-md-9 offset-md-1">
+          <p>
+            After some thought, we decided that we could make the biggest impact in the first half of
+            the user journey. Playoffs and payouts take a while to actually get to because of how long
+            fantasy sports seasons are. <strong>We needed to focus on getting users signed up by creating a great
+            first impression and high initial value.</strong>
+          </p>
+        </div>
       </div>
 
       <div class="container mt-5 mb-5">
@@ -326,128 +331,147 @@
       </div>
     </div>
 
+    <div class="container">
+      <br>
+      <hr class="style1 pb-5 mt-3">
+    </div>
 
-    <div class="container-fluid background-pink pt-5 pb-5" id="ideate">
-      <div class="container" id="solutions">
-        <div class="container pt-5 pb-5">
-          <h3 class="pb-4">Ideate</h3>
-          <h2 class="header mb-4">Solutions</h2>
-          <p>
-            At this point, we had determined our two high-level goals. One was to smoothen
-            the money deposit workflow. The other was to create features that hook users during the
-            first half of their journey. We began ideating on potential solutions and validated them
-            along the way through concept testing. We ended up throwing some ideas out and punting on
-            others as potential future roadmap items. We came out with four implementations
-            (one for depositing money, and three for product value) that we thought were feasible
-            and would address the biggest concerns.
-          </p>
-        </div>
+    <div class="container" id="ideate">
+      <div class="container pt-5 pb-5">
+        <h3 class="pb-4">Ideate</h3>
+        <h2 class="header mb-4">Solutions</h2>
+        <p>
+          At this point, we had determined our two high-level goals. One was to smoothen
+          the money deposit workflow. The other was to create features that hook users during the
+          first half of their journey. We began ideating on potential solutions and validated them
+          along the way through concept testing. We ended up throwing some ideas out and punting on
+          others as potential future roadmap items. We came out with four implementations
+          (one for depositing money, and three for product value) that we thought were feasible
+          and would address the biggest concerns.
+        </p>
       </div>
     </div>
 
-    <div class="container pt-5 pb-5" id="problem_1">
-      <h6 class="container pb-4 pt-5">#1 The Skrill problem</h6>
-      <div class="container">
-        <div class="row row-no-margins mt-5 p-4 vertically-centered-row rounded shadow-sm">
+    <div class="container-fluid background-pink">
+      <div class="container pt-5 pb-5" id="problem_1">
+        <h6 class="container pb-4 pt-5">#1 The Skrill problem</h6>
+        <div class="container">
+          <div class="row row-no-margins mt-5 p-4 vertically-centered-row bg-white rounded shadow-sm">
+            <div class="col-md-8">
+              <img src="./images/pre_skrill.png" alt="screenshot of a page" class="mw-100">
+            </div>
+            <div class="col-md-4 text-center">
+              <img src="./images/commissioner_pink_with_quote.png" alt="image of a mand with a following quote: Oh, this does not sound shady at all! Fees charged by
+                Skrill, oh, what kind of fees they're gonna charge?!" class="mw-100" style="max-height: 400px">
+            </div>
+          </div>
+          <p class="font-italic small pt-4">Current load funds screen</p>
+        </div>
+
+
+        <div class="row row-no-margins mt-5">
+          <div class="col-md-9 offset-md-3 pt-4 pb-5">
+            <p>
+              When we tested the current workflow with Skrill, we learned that users were confused by vague
+              fee descriptions and the fact that there are fees on both League Swype and Skrill. We also
+              identified a major usability issue. Users weren’t clear on how much money they had to spend to
+              end up with the desired amount in their League Swype account. For example, to put $100 in a
+              League Swype account, more than $100 needs to be deposited in Skrill due to transaction fees
+              along the way.
+            </p>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-md-2">
+              <h3>Fee calculator</h3>
+            </div>
+            <div class="col-md-9 offset-md-1">
+              <p>
+                To address these issues, we developed a fee calculator that made it clear
+                and explicit what fees would be applied, as well as how much money the user would ultimately
+                end up within their League Swype account.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container text-center pt-5 pb-5">
+          <img src="./images/ls_fee_calculator.png" alt="fee calculator" class="mw-100 rounded shadow-sm bg-white pt-3 pr-2 pb-0 pl-2">
+        </div>
+
+        <div class="container pt-5 mt-5 pb-5" id="problem_2">
+          <h6 class="pb-3">#2 The desirability problem</h6>
+          <div class="row pt-5">
+            <div class="col-md-2">
+            </div>
+            <div class="col-md-9 offset-md-1">
+              <p>
+                We wanted to make the app really useful for commissioners so that they’d be enticed to
+                host their leagues on League Swype. We came out with three new features focused around the
+                commissioner’s pain points.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row row-no-margins mt-5 vertically-centered-row">
           <div class="col-md-8">
-            <img src="./images/pre_skrill.png" alt="screenshot of a page" class="mw-100">
+            <h3>Fun reminder feature</h3>
+            <p>
+              With this reminder feature, commissioners can select owners that haven’t paid their dues
+              yet and send a group reminder. They can also choose the tone of the message they want, and
+              the app will generate a fun message that they can then customize. Users mentioning their joy
+              for trash talking during interviews influenced the light-heartedness of this feature.
+            </p>
           </div>
           <div class="col-md-4 text-center">
-            <img src="./images/commissioner_pink_with_quote.png" alt="image of a mand with a following quote: Oh, this does not sound shady at all! Fees charged by
-              Skrill, oh, what kind of fees they're gonna charge?!" class="mw-100" style="max-height: 400px">
+            <img src="./gifs/reminder_feature.gif" alt="reminder feature recording" class="mw-100 rounded shadow-sm" style="max-height: 400px;">
           </div>
         </div>
-        <p class="font-italic small pt-4">Current load funds screen</p>
-      </div>
 
-
-      <div class="row row-no-margins mt-5">
-        <div class="col-md-9 offset-md-3 pt-4 pb-5">
-          <p>
-            When we tested the current workflow with Skrill, we learned that users were confused by vague
-            fee descriptions and the fact that there are fees on both League Swype and Skrill. We also
-            identified a major usability issue. Users weren’t clear on how much money they had to spend to
-            end up with the desired amount in their League Swype account. For example, to put $100 in a
-            League Swype account, more than $100 needs to be deposited in Skrill due to transaction fees
-            along the way.
-          </p>
+        <div class="row row-no-margins mt-5 pt-5 pb-5 reverse vertically-centered-row">
+          <div class="col-md-4 text-center">
+            <img src="./gifs/payout_templates.gif" alt="payout set up recording" class="mw-100 rounded shadow-sm" style="max-height: 400px;">
+          </div>
+          <div class="col-md-8">
+            <h3>League rule templates</h3>
+            <p>
+              Since users mentioned that leagues typically follow common payout rules, we wanted to
+              let the commissioner skip having to define those over and over again manually. Rule templates
+              let a commissioner start a league with preset rules for payout structure.
+            </p>
+          </div>
         </div>
-      </div>
 
-      <div class="col-md-9 offset-md-3">
-        <h3>Fee calculator</h3>
-        <p>
-          To address these issues, we developed a fee calculator that made it clear
-          and explicit what fees would be applied, as well as how much money the user would ultimately
-          end up within their League Swype account.
-        </p>
-      </div>
+        <div class="row row-no-margins mt-5 pt-5">
+          <div class="col-md-2">
+            <h3>League analytics</h3>
+          </div>
+          <div class="col-md-9 offset-md-1">
+            <p>
+              League analytics offer an advanced overview of everything that is happening in the league.
+              Both commissioners and owners get to see information about other league members. This
+              includes fun performance stats that could be gathered from a fantasy provider’s data.
+            </p>
+          </div>
+        </div>
 
-      <div class="col-md-9 offset-md-3 text-center pt-5 pl-0 pb-5">
-        <img src="./gifs/fee_calculator.gif" alt="fee calculator recording" class="mw-100 rounded shadow-sm" style="max-height: 400px;">
+      <div class="container">
+        <div class="row row-no-margins mt-5 mb-5 p-4 bg-white rounded shadow-sm">
+          <div class="col-md-6">
+            <img src="./images/analytics_screenshot.png" alt="image of analytics screen" class="mw-100">
+          </div>
+          <div class="col-md-6">
+            <img src="./images/analytics_screenshot_stats.png" alt="image of stats screen" class="mw-100">
+          </div>
+        </div></div>
       </div>
-
-      <div class="container pt-5 mt-5 pb-5" id="problem_2">
-        <h6>#2 The desirability problem</h6>
-        <p>
-          We wanted to make the app really useful for commissioners so that they’d be enticed to
-          host their leagues on League Swype. We came out with three new features focused around the
-          commissioner’s pain points.
-        </p>
-      </div>
-
-      <div class="row row-no-margins mt-5 vertically-centered-row">
-        <div class="col-md-8">
-          <h3>Fun reminder feature</h3>
-          <p>
-            With this reminder feature, commissioners can select owners that haven’t paid their dues
-            yet and send a group reminder. They can also choose the tone of the message they want, and
-            the app will generate a fun message that they can then customize. Users mentioning their joy
-            for trash talking during interviews influenced the light-heartedness of this feature.
-          </p>
-        </div>
-        <div class="col-md-4 text-center">
-          <img src="./gifs/reminder_feature.gif" alt="reminder feature recording" class="mw-100 rounded shadow-sm" style="max-height: 400px;">
-        </div>
-      </div>
-
-      <div class="row row-no-margins mt-5 pt-5 reverse vertically-centered-row">
-        <div class="col-md-4 text-center">
-          <img src="./gifs/payout_templates.gif" alt="payout set up recording" class="mw-100 rounded shadow-sm" style="max-height: 400px;">
-        </div>
-        <div class="col-md-8">
-          <h3>League rule templates</h3>
-          <p>
-            Since users mentioned that leagues typically follow common payout rules, we wanted to
-            let the commissioner skip having to define those over and over again manually. Rule templates
-            let a commissioner start a league with preset rules for payout structure.
-          </p>
-        </div>
-      </div>
-
-      <div class="row row-no-margins mt-5 pt-5">
-        <div class="col-md-12">
-          <h3>League analytics</h3>
-          <p>
-            League analytics offer an advanced overview of everything that is happening in the league.
-            Both commissioners and owners get to see information about other league members. This
-            includes fun performance stats that could be gathered from a fantasy provider’s data.
-          </p>
-        </div>
-      </div>
-
-    <div class="container">
-      <div class="row row-no-margins mt-5 mb-5 p-4 rounded shadow-sm">
-        <div class="col-md-6">
-          <img src="./images/analytics_screenshot.png" alt="image of analytics screen" class="mw-100">
-        </div>
-        <div class="col-md-6">
-          <img src="./images/analytics_screenshot_stats.png" alt="image of stats screen" class="mw-100">
-        </div>
-      </div></div>
     </div>
 
-    <div class="container-fluid background-pink pt-5 pb-5" id="conclusion">
+
+    <div class="container-fluid pt-5" id="conclusion">
       <div class="container p-5">
         <div>
           <h2 class="header mb-4">Conclusion</h2>
@@ -488,9 +512,14 @@
       </div>
     </div>
 
-    <div class="container pt-5 pb-5 pl-4 pr-4" id="personal_reflection">
+    <div class="container">
+      <br>
+      <hr class="style1 pb-5 mt-3">
+    </div>
+
+    <div class="container pb-5 pl-4 pr-4" id="personal_reflection">
       <div class="row row-no-margins pb-5">
-        <div class="col-md-12 mt-5 mb-5">
+        <div class="col-md-12 mt-3 mb-5">
           <h2 class="header mb-4">Personal Reflection</h2>
           <p>
             An interesting part of this project was that I had zero prior knowledge of fantasy sports.
