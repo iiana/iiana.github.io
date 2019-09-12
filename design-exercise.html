@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Iana Iavorskaia: UX Designer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./main.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico"/>
+  </head>
+
+<body>
+  <div class="container pb-5">
+    <div class=" col-md-10 offset-md-1 pt-5">
+      <h1 class="pb-5 mb-5 pt-5 mt-5">GDP Data Exercise</h1>
+      <h2 class="header mb-5 mt-4">Process</h2>
+      <p>The assignment reads: “Gross Domestic Product is the total value of all goods and services produced in a particular country’s economy in a given year and is widely
+        <strong>used by economists to gauge the health of economies</strong>.”
+        <br><br>I had a starting point to dig into understanding the potential users better: the (theoretical) users would most likely be trying to evaluate a country’s
+        economic health. Given the scope of this project, I settled for some quick Google searching and narrowed down my potential users to economists and investors. I also solidified some use cases for what evaluating a country’s economic
+        health might actually entail:
+     </p>
+     <ul>
+       <li>Quickly understand trends in GDP over time</li>
+       <li>Focus on how GDP changed in a particular year</li>
+       <li>Comparing the economies of 2+ countries</li>
+     </ul>
+     <br>
+     <p>Given more time, I would have loved to conduct interviews with the target audience to truly understand their pain points and data interaction nuances. Although this wasn’t feasible, I felt like I had a pretty good starting point for
+       designing a solution.
+     </p>
+    </div>
+
+    <div class="col-md-10 offset-md-1 pt-5">
+      <h2 class="header mb-5 mt-4">Solution</h2>
+      <p>Looking at the data, the first thing I saw was GDP change over a period of time. To show data over time, I thought a line chart would be the best visualization. The viewer can analyze patterns without having to look too closely at
+        specific numbers, and easily compare between countries.
+      </p>
+      <br>
+      <p>A line chart by itself is a relatively straightforward - my challenge was ideating on how a user would want to interact with data like this on various devices. I prototyped some features around the line chart that gives the user more
+        power to interact with the data in a way that is useful to them.
+      </p>
+    </div>
+  </div>
+
+  <div class="container">
+    <br>
+    <hr class="style1 pb-5 mt-5">
+  </div>
+
+  <div class="container pt-1 pb-5">
+    <div class="col-md-10 offset-md-1">
+      <h3>Full desktop page view</h3>
+    </div>
+    <div>
+      <img src="./exercise/Desktop copy.png" alt="desktop image" class="pt-5">
+    </div>
+  </div>
+
+  <div class="container">
+    <br>
+    <hr class="style1 pb-5 mt-5">
+  </div>
+
+  <div class="container pt-4 pb-3">
+    <div class="col-md-10 offset-md-1 pb-3">
+      <h3>Zooming</h3>
+      <p>Sixty years might be an overwhelming timeframe for a user to look at. It’s possible they only care about the last ten years and would like to see those years more clearly. Zooming allows the user to adjust the data as they see fit. This
+        feature also makes the chart mobile friendly.
+      </p>
+    </div>
+    <div class="pb-4">
+      <img src="./exercise/Zoom_desktop.gif" alt="zooming tool" class="mw-100 pt-5">
+      <p class="font-italic small pt-5 text-center">Desktop chart zooming</p>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6 text-center">
+        <img src="./exercise/Mobile_zoomout.png" alt="mobile screen" class="mw-100 shorten">
+        <p class="font-italic small pt-4 text-center">Mobile view - zoomed out</p>
+      </div>
+      <div class="col-md-6 text-center">
+        <img src="./exercise/Scroll_mobile.gif" alt="scrolling on a phone" class="mw-100 shorten">
+        <p class="font-italic small pt-3 text-center">Mobile view - scrolling when zoomed in</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <br>
+    <hr class="style1 pb-5 mt-5">
+  </div>
+
+  <div class="container pt-4 pb-5">
+    <div class="col-md-10 offset-md-1 pb-3">
+      <h3>Full GDP amount tooltip</h3>
+      <p>If a user wants to view the full GDP amount rather than having to eyeball it using the Y-axis,
+        they can simply click on a point.
+      </p>
+    </div>
+    <div>
+      <img src="./exercise/Hover-info.gif" alt="amount tooltip" class="mw-100 pt-5">
+      <p class="font-italic small pt-5 text-center">Amount tooltip</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <br>
+    <hr class="style1 pb-5 mt-5">
+  </div>
+
+  <div class="container pt-4 mt-3 pb-5">
+    <div class="col-md-10 offset-md-1 pb-3">
+      <h3>Country toggling</h3>
+      <p>Country toggles let the user hide any information that is noisy to them. The current layout would
+        quickly become crowded if more countries are added. So, if the project were extended beyond five countries,
+        the design would need to be adjusted.
+      </p>
+    </div>
+    <div>
+      <img src="./exercise/Country_toggles.gif" alt="country toggles" class="mw-100 pt-5">
+      <p class="font-italic small pt-5 text-center">Country toggles - also serve as a chart legend</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <br>
+    <hr class="style1 pb-5 mt-5">
+  </div>
+
+  <div class="container pt-4 pb-5 mb-5">
+    <div class="col-md-10 offset-md-1 pb-5">
+      <h3>Year-based details cards</h3>
+      <p>Each card contains GDP data for toggled countries during a selected year. This offers an opportunity
+        for a user to compare countries in a specific year. Users can add cards for multiple years if desired.
+        Each card has a corresponding color line on the chart. The colored dot can be dragged which will change
+        the corresponding card’s year.
+      </p>
+    </div>
+    <div class="pb-5 mb-5">
+      <img src="./exercise/Add-year.gif" alt="adding details card" class="mw-100 pt-5 rounded">
+      <p class="font-italic small pt-5 text-center">Detail cards with correlating points on the chart</p>
+    </div>
+  </div>
+</body>
