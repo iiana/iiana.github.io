@@ -182,6 +182,10 @@ hr {
   background-color: #2D3047;
 }
 
+ .shorten {
+    max-height: 1200px;
+  {
+
 @media only screen and (max-width: 900px) {
   .nav-links {
     margin-right: 25px;
@@ -230,6 +234,10 @@ blockquote {
   .banner-text {
     padding: 250px  65px 0px 20px;
   }
+  
+  .shorten {
+    max-height: 500px;
+  {
 }
 
 /* footer */
