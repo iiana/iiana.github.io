@@ -184,7 +184,7 @@ hr {
 
  .shorten {
     max-height: 1200px;
-  {
+}
 
 @media only screen and (max-width: 900px) {
   .nav-links {
@@ -237,7 +237,7 @@ blockquote {
   
   .shorten {
     max-height: 500px;
-  {
+  }
 }
 
 /* footer */
