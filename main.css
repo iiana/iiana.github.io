@@ -97,7 +97,8 @@ hr {
 
 /* navigation */
 .navigation{
-  justify-content:flex-end;
+  justify-content: flex-end;
+  max-width: 100%;
 }
 
 .nav-links {
@@ -234,7 +235,7 @@ blockquote {
   .banner-text {
     padding: 250px  65px 0px 20px;
   }
-  
+
   .shorten {
     max-height: 500px;
   }
