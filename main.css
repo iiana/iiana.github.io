@@ -13,8 +13,8 @@ body {
 
 .container {
   max-width: 1020px !important;
-  padding-left: 25px!important;
-  padding-right: 25px!important;
+  padding-left: 15px!important;
+  padding-right: 15px!important;
 }
 
 .container-fluid {
