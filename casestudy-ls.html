@@ -28,6 +28,27 @@
       </div>
     </header>
 
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="./images/arrow-up.svg" alt="arrow up"></button>
+
+    <script type="text/javascript">
+      var mybutton = document.getElementById("myBtn");
+
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+
+      function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+      }
+    </script>
+
     <div class="container pb-5">
       <div class="row mt-5 vertically-centered-row">
         <div class="col-md-8 pt-5 mt-5">
@@ -519,7 +540,7 @@
 
     <div class="container pb-5 pl-4 pr-4" id="personal_reflection">
       <div class="row row-no-margins pb-5">
-        <div class="col-md-12 mt-3 mb-5">
+        <div class="mt-3 mb-5">
           <h2 class="header mb-4">Personal Reflection</h2>
           <p>
             An interesting part of this project was that I had zero prior knowledge of fantasy sports.
@@ -531,12 +552,11 @@
           </p>
         </div>
 
-        <div class="container">
-          <div>
-            <h2 class="header">For More Details</h2>
-            <p>To cut the story short I have omitted a lot of details. If you have any questions or would like to see a
-              particular artifact, please, do not hesitate to contact me at: <strong><a href="mailto:ianaiavorskaia@gmail.com">ianaiavorskaia@gmail.com</a></strong></p>
-          </div>
+
+        <div>
+          <h2 class="header">For More Details</h2>
+          <p>To cut the story short I have omitted a lot of details. If you have any questions or would like to see a
+            particular artifact, please, do not hesitate to contact me at: <strong><a href="mailto:ianaiavorskaia@gmail.com">ianaiavorskaia@gmail.com</a></strong></p>
         </div>
       </div>
     </div>
