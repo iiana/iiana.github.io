@@ -175,6 +175,22 @@ hr {
   margin-bottom: 10px;
 }
 
+.header-link {
+  background-image: linear-gradient(transparent 0%, transparent 65%, #ff7575 65%, #ff7575 100%, transparent 90%, transparent);
+  display: inline-block;
+  font-family: "abril fatface", serif;
+  color: #1f1f1f;
+  margin-bottom: 10px;
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.header-link:hover {
+  color: #2f414a;
+  text-decoration: none;
+}
+
 .background-pink {
    background-image: linear-gradient(to bottom right, #fffafa, #ffdbd9);
 }
