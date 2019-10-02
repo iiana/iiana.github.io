@@ -240,6 +240,10 @@ blockquote {
 }
 
 @media only screen and (max-width: 575px) {
+  .nav-links {
+    margin-right: 0px;
+  }
+
   .reverse {
     flex-direction: column-reverse;
   }
