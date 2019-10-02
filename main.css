@@ -242,8 +242,12 @@ blockquote {
     padding-left: 48px;
   }
 
+  .navigation {
+    justify-content: center!important;
+  }
+
   .nav-links {
-    margin-right: 0px;
+    margin-left: -25px;
   }
 
   .reverse {
