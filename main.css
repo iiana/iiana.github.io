@@ -13,6 +13,8 @@ body {
 
 .container {
   max-width: 1020px !important;
+  padding-left: 25px!important;
+  padding-right: 25px!important;
 }
 
 .container-fluid {
@@ -98,12 +100,10 @@ hr {
 /* navigation */
 .navigation{
   justify-content: flex-end;
-  max-width: 100%;
 }
 
 .nav-links {
   float: right;
-  margin-right: 70px;
 }
 
 .nav-links ul {
@@ -155,7 +155,7 @@ hr {
 /* banner */
 .banner {
   background-color: white;
-  min-height: 90vh;
+  min-height: 800px;
 }
 
 .banner h1 {
@@ -164,7 +164,7 @@ hr {
 
 .banner-text {
   max-width: 70%;
-  padding: 350px  65px 0px 100px;
+  padding: 470px  65px 30px 0px;
 }
 
 /* main section */
@@ -204,14 +204,11 @@ hr {
 }
 
 @media only screen and (max-width: 900px) {
-  .nav-links {
-    margin-right: 25px;
-  }
 
   .banner {
     padding-top: 22vh;
     padding-right: 15px;
-    padding-left: 70px;
+    padding-left: 48px;
   }
 
   .banner h1 {
@@ -221,7 +218,6 @@ hr {
   .banner-text {
     max-width: 100%;
     padding-top: 300px;
-    padding-left: 20px;
   }
 
   .image-mobile {
@@ -240,6 +236,12 @@ blockquote {
 }
 
 @media only screen and (max-width: 575px) {
+  .banner {
+    background-color: white;
+    min-height: 400px;
+    padding-left: 48px;
+  }
+
   .nav-links {
     margin-right: 0px;
   }
@@ -248,16 +250,32 @@ blockquote {
     flex-direction: column-reverse;
   }
 
-  .navigation {
-    justify-content: center;
-  }
-
   .banner-text {
-    padding: 250px  65px 0px 20px;
+    padding: 250px  65px 65px 0px;
   }
 
   .shorten {
     max-height: 500px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .banner {
+    background-color: white;
+    max-height: 600px;
+    padding-left: 48px;
+  }
+
+  .banner-text {
+    padding: 200px  5px 25px 0px;
+  }
+
+  .navigation {
+    justify-content: flex-start!important;
+  }
+
+  .nav-links {
+    margin-left: -25px;
   }
 }
 
