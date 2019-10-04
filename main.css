@@ -203,6 +203,11 @@ hr {
     max-height: 1200px;
 }
 
+.space {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 @media only screen and (max-width: 900px) {
 
   .banner {
@@ -260,6 +265,10 @@ blockquote {
 
   .shorten {
     max-height: 500px;
+  }
+
+  .text-centered {
+    text-align: center;
   }
 }
 

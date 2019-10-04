@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Iana Noda: UX Designer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./main.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico"/>
+  </head>
+
+  <body>
+    <header class="container-fluid bg-white fixed-top">
+      <div class="container">
+        <div class="mb-3">
+          <div class="row navigation mr-0 ml-0">
+            <nav class="nav-links">
+              <ul class="nav justify-content-end">
+                <li><a href="./index.html">home</a></li>
+                <li><a href="./portfolio.html">portfolio</a></li>
+                <li><a href="./iana_noda-resume.pdf" target="_blank">resume</a></li>
+                <li><a href="mailto:iananoda.ux@gmail.com">email me</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="./images/arrow-up.svg" alt="arrow up"></button>
+
+    <script type="text/javascript">
+      var mybutton = document.getElementById("myBtn");
+
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+
+      function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+      }
+    </script>
+
+    <div class="space"></div>
+
+    <div class="container pt-5 pb-5">
+      <h2 class="header">My creative work</h2>
+      <p>On my free time I like to explore different mediums to express my creativity.
+        Lately I've been into working in Procreate.
+      </p>
+    </div>
+
+    <div class="bg-light">
+      <div class="container pt-5 mt-5 pb-5">
+        <div class="row pt-5">
+          <div class="col-12 col-md-8 mt-4">
+            <img src="./creative/sunrise.png" class="mw-100 rounded">
+          </div>
+          <div class="col-12 col-md-4 text-center mt-4">
+            <img src="./creative/prototyping.jpg" class="mw-100 rounded">
+          </div>
+        </div>
+
+        <div class="row pt-4">
+          <div class="col-md-6 mt-4">
+            <img src="./creative/family_sticker.jpg" class="mw-100 rounded">
+          </div>
+
+          <div class="col-md-6  mt-4">
+            <img src="./creative/login.png" class="mw-100 rounded">
+          </div>
+
+          <div class="col-md-6 mt-4">
+            <img src="./creative/pregnancy.png" class="mw-100 rounded">
+          </div>
+
+          <div class="col-md-6 mt-4 mb-5">
+            <img src="./creative/animation.gif" class="mw-100 rounded">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-light pt-5 pb-5">
+    </div>
+
+    <div class="footer-links bg-light">
+      <ul>
+        <li><a href="https://www.linkedin.com/in/iananoda" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+        <li><a href="https://www.dribbble.com/iananoda" target="_blank"><i class="fab fa-dribbble-square"></i></a></li>
+      </ul>
+    </div>
+  </body>
+</html>
