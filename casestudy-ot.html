@@ -28,6 +28,27 @@
       </div>
     </header>
 
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="./images/arrow-up.svg" alt="arrow up"></button>
+
+    <script type="text/javascript">
+      var mybutton = document.getElementById("myBtn");
+
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+
+      function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+      }
+    </script>
+
     <div class="space"></div>
 
     <div class="container mt-5 pb-5">
@@ -65,6 +86,7 @@
               <li><a href="#description">Description</a></li>
               <li><a href="#challenge">Challenge</a></li>
             </ul>
+          <li><a href="#progress">Progress</a></li>
         </div>
       </div>
     </div>
@@ -82,7 +104,6 @@
             <p>OnTrack is a web app that allows users to set track their spend and set budgeting goals.</p>
           </div>
         </div>
-
       </div>
 
       <div class="container pb-5">
@@ -100,17 +121,93 @@
       </div>
     </div>
 
-    <div class="container pt-5 mt-5">
-      <div class="row row-no-margins pr-3 pb-5">
-        <div class="col-md-3 mb-4">
-          <h2 class="header">For More</h2>
+    <div class="container pt-5" id="progress">
+      <div class="pl-3 pb-5">
+        <h3>Progress</h3>
+      </div>
+      <div class="row row-no-margins pt-3">
+        <div class="col-md-2 mb-4">
+          <h2 class="header">Login</h2>
         </div>
-        <div class="col-md-9">
-          <p>Reach out to me if you would like to learn more about current progress: <strong><a href="mailto:iananoda.ux@gmail.com">iananoda.ux@gmail.com</a></strong>
-          </p>
+        <div class="col-md-9 offset-md-1 pb-4">
+          <p>Friendly and no pressure UI is a must for this project. I want users to feel good about using the app.</p>
         </div>
       </div>
+      <div class="col-md-12">
+        <img src="./images/ot-login.png" alt="login pages" class="mw-100 rounded shadow">
+        <p class="font-italic small pt-5">Login page - desktop and mobile view</p>
+      </div>
+
+      <div class="space"></div>
+
+      <div class="row row-no-margins pt-3">
+        <div class="col-md-2 mb-4">
+          <h2 class="header">Dashboard</h2>
+        </div>
+        <div class="col-md-9 offset-md-1 pb-4">
+          <p>User can set a monthly budget and on top of that create budget for each category.</p>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <img src="./images/ontrack_full.jpg" alt="dashboard page" class="mw-100 rounded shadow">
+        <p class="font-italic small pt-5">Dashboard page</p>
+      </div>
+
+      <div class="space"></div>
+
+      <div class="row row-no-margins pt-3">
+        <div class="col-md-2 mb-4">
+          <h2 class="header">History</h2>
+        </div>
+        <div class="col-md-9 offset-md-1 pb-4">
+          <p>Provides ability to go back and check one expense or another.</p>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <img src="./images/ot-history.png" alt="expense history page" class="mw-100 rounded shadow">
+        <p class="font-italic small pt-5">Expense history page</p>
+      </div>
+
+      <div class="col-md-9 offset-md-3  pt-5">
+        <p>If users have not input any expenses yet they will see:</p>
+      </div>
+      <div class="col-md-12  pt-5">
+        <img src="./images/ot-empty.png" alt="expense history page - empty state" class="mw-100 rounded shadow">
+        <p class="font-italic small pt-5">Expense history page - empty state</p>
+      </div>
+
+      <div class="space"></div>
+
+      <div class="row row-no-margins pt-3">
+        <div class="col-md-2 mb-4">
+          <h2 class="header">Insights</h2>
+        </div>
+        <div class="col-md-9 offset-md-1 pb-4">
+          <p>Lets users compare spending data, track their progrees, and stay focused on their goals.</p>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <img src="./images/ot-insights.png" alt="insights page" class="mw-100 rounded shadow">
+        <p class="font-italic small pt-5">Insights page</p>
+      </div>
+
+      <div class="space"></div>
+
+      <div class="row row-no-margins pt-3">
+        <div class="col-md-3 mb-4">
+          <h2 class="header">404 Page</h2>
+        </div>
+        <div class="col-md-9 pb-4">
+          <p>Custom 404 page to keep it fun.</p>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <img src="./images/ot-404.png" alt="404 page" class="mw-100 rounded shadow">
+        <p class="font-italic small pt-5">404 page</p>
+      </div>
     </div>
+
+
 
     <div class="space"></div>
 
