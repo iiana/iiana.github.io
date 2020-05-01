@@ -38,27 +38,6 @@
       </div>
     </header>
 
-    <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="./images/arrow-up.svg" alt="arrow up"></button>
-
-    <script type="text/javascript">
-      var mybutton = document.getElementById("myBtn");
-
-      window.onscroll = function() {scrollFunction()};
-
-      function scrollFunction() {
-        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-          mybutton.style.display = "block";
-        } else {
-          mybutton.style.display = "none";
-        }
-      }
-
-      function topFunction() {
-        document.body.scrollTop = 0; // For Safari
-        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-      }
-    </script>
-
     <div class="container">
       <div class="banner-text">
         <h1>Iana Noda<br>Product designer</h1>
@@ -81,8 +60,8 @@
               </p>
             </div>
             <div class="col-md-4  offset-md-1 col-12 text-center pt-2">
+              <img src="./images/headshot.jpg" alt="headshot" class="mb-5 rounded mw-100">
               <!--<img src="./images/headshot_vertical.jpg" alt="headshot" class="mw-100 mb-5 pt-5 d-none d-md-inline-block rounded">-->
-              <img src="./images/headshot.jpg" alt="headshot" class="mb-5 rounded" style="max-width: 350px;">
             </div>
           </div>
         </div>
