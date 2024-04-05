@@ -1,0 +1,41 @@
+@font-face{
+  font-family: "League Spartan";
+  src: url("../fonts/LeagueSpartan-ExtraBold.ttf") format("truetype");
+}
+
+@font-face{
+  font-family: "League Gothic";
+  src: url("../fonts/LeagueGothic-Regular.ttf") format("truetype");
+}
+
+.h1 {
+  font-size: 32px;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 800;
+  color: #E0E7FF;
+  letter-spacing: 0.1em;
+}
+
+.h2 {
+  font-size: 28px;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 800;
+  color: #E0E7FF;
+  letter-spacing: 0.1em;
+}
+
+.gothic {
+  font-family: "League Gothic", sans-serif;
+}
+
+.text-primary {
+  color: #E0E7FF
+}
+
+.text-secondary {
+  color: #BEC6E1;
+}
+
+.text-accent {
+  color: #7993E4
+}
